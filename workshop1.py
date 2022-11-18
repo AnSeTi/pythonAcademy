@@ -18,7 +18,7 @@ lessonCount = int(input("Kaç adet ders notu gireceksiniz? ="))
 passedExams=0
 failedExams=0
 for i in range(lessonCount):
-    lessonExam1 = float(input(f"{i+1}. ders için vize notunu giriniz ="))
+    lessonExam1.append = float(input(f"{i+1}. ders için vize notunu giriniz ="))
     lessonExam2 = float(input(f"{i+1}. ders için final notunu giriniz ="))
     totalExamNote = (lessonExam1*0.4)+(lessonExam2*0.6)
     if totalExamNote > 50:
@@ -27,5 +27,12 @@ for i in range(lessonCount):
         failedExams += 1
 print(f"{passedExams} adet dersten geçtiniz. {failedExams} adet dersten kaldınız.")
 
-#* girilen her dersi sıralayıp(notları), geçtğiniz dersler bunlar, kaldığınız dersler bunlardır.
+
+
+
+
+
+#* girilen her dersi sıralayıp(notları), 
+#* geçtğiniz dersler bunlar, kaldığınız dersler bunlardır.
 #* ders i için  final:zz vize:xx  gibi
+
